@@ -80,6 +80,7 @@ namespace CalenderApplication
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.monthCalendar1.TabIndex = 0;
+            this.monthCalendar1.TrailingForeColor = System.Drawing.SystemColors.AppWorkspace;
             // 
             // Weather
             // 
