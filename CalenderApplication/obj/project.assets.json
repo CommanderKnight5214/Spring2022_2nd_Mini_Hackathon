@@ -8,19 +8,27 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fihnh\\.nuget\\packages\\": {}
+    "C:\\Users\\zpepp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\CalenderApplication.csproj",
       "projectName": "CalenderApplication",
       "projectPath": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\CalenderApplication.csproj",
       "packagesPath": "C:\\Users\\fihnh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+      "projectName": "CalenderApplication",
+      "projectPath": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+      "packagesPath": "C:\\Users\\zpepp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
+>>>>>>> f9470c42c60cd2453e3f72405e4558705e616c70
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fihnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zpepp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

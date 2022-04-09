@@ -7,33 +7,65 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace CalenderApplication
 {
     public partial class MainForm : Form
     {
+        System.Windows.Forms.Timer t = new System.Windows.Forms.Timer();
         public MainForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void clock1_Click(object sender, EventArgs e)
         {
+            t.Interval = 1000;
 
+            t.Tick += new EventHandler(this.t_Tick);
         }
 
-        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        private void t_Tick(object sender, EventArgs e)
         {
+            int hh =DateTime.Now.Hour;
+            int mm =DateTime.Now.Minute;
+            int ss =DateTime.Now.Second;
 
-        }
+            string time = "";
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+            if (hh < 10)
+            {
+                time += "0" + hh;
+            }
+            else
+            {
+                time += hh;
+            }
 
-        }
+            time += ";";
+            
+            if (mm < 10)
+            {
+                time += "0" + mm;
+            }
+            else
+            {
+                time += mm;
+            }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+            time += ";";
+            
+            if (ss < 10)
+            {
+                time += "0" + ss;
+            }
+            else
+            {
+                time += ss;
+            }
+            
+            clock1.Text = time;
 
         }
 
