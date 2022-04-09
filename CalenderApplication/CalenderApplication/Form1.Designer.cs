@@ -35,7 +35,7 @@ namespace CalenderApplication
             this.Weather = new System.Windows.Forms.TabPage();
             this.Calculator = new System.Windows.Forms.TabPage();
             this.Notes = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.Clock = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
             this.Calendar.SuspendLayout();
             this.SuspendLayout();
@@ -46,7 +46,7 @@ namespace CalenderApplication
             this.tabControl.Controls.Add(this.Weather);
             this.tabControl.Controls.Add(this.Calculator);
             this.tabControl.Controls.Add(this.Notes);
-            this.tabControl.Controls.Add(this.tabPage5);
+            this.tabControl.Controls.Add(this.Clock);
             this.tabControl.Location = new System.Drawing.Point(14, 45);
             this.tabControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl.Name = "tabControl";
@@ -111,16 +111,16 @@ namespace CalenderApplication
             this.Notes.TabIndex = 3;
             this.Notes.Text = "Notes";
             // 
-            // tabPage5
+            // Clock
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage5.Size = new System.Drawing.Size(879, 746);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.Clock.Location = new System.Drawing.Point(4, 29);
+            this.Clock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Clock.Name = "Clock";
+            this.Clock.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Clock.Size = new System.Drawing.Size(879, 746);
+            this.Clock.TabIndex = 4;
+            this.Clock.Text = "Clock";
+            this.Clock.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -145,7 +145,7 @@ namespace CalenderApplication
         private System.Windows.Forms.TabPage Weather;
         private System.Windows.Forms.TabPage Calculator;
         private System.Windows.Forms.TabPage Notes;
-        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage Clock;
         public System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
