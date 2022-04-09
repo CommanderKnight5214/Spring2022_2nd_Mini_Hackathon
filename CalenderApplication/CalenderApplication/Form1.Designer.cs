@@ -108,7 +108,8 @@ namespace CalenderApplication
             this.ClientSize = new System.Drawing.Size(800, 630);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
-            this.Text = "Daily Planner";
+            this.Text = "Widget Application";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
