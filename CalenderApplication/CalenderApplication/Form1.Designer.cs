@@ -36,10 +36,8 @@ namespace CalenderApplication
             this.Calculator = new System.Windows.Forms.TabPage();
             this.Notes = new System.Windows.Forms.TabPage();
             this.Clock = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
             this.Calendar.SuspendLayout();
-            this.toDoList.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -49,7 +47,6 @@ namespace CalenderApplication
             this.tabControl.Controls.Add(this.Calculator);
             this.tabControl.Controls.Add(this.Notes);
             this.tabControl.Controls.Add(this.Clock);
-            this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Location = new System.Drawing.Point(14, 45);
             this.tabControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl.Name = "tabControl";
@@ -124,17 +121,6 @@ namespace CalenderApplication
             this.Clock.TabIndex = 4;
             this.Clock.Text = "Clock";
             this.Clock.UseVisualStyleBackColor = true;
-
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(879, 746);
-            this.tabPage1.TabIndex = 5;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -148,8 +134,6 @@ namespace CalenderApplication
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl.ResumeLayout(false);
             this.Calendar.ResumeLayout(false);
-            this.toDoList.ResumeLayout(false);
-            this.toDoList.PerformLayout();
             this.ResumeLayout(false);
 
         }
