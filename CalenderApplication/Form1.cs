@@ -68,5 +68,15 @@ namespace CalenderApplication
             clock1.Text = time;
 
         }
+
+        private void ToDoListTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
