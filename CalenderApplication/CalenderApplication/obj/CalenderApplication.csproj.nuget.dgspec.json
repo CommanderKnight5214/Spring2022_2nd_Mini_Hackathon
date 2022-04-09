@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {}
+    "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {
+    "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+        "projectUniqueName": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
         "projectName": "CalenderApplication",
-        "projectPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
-        "packagesPath": "C:\\Users\\fihnh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
+        "projectPath": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+        "packagesPath": "C:\\Users\\zpepp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zpepp\\OneDrive - Concordia University Wisconsin\\Coding II\\hackathon\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fihnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zpepp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
