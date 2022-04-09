@@ -1,7 +1,7 @@
 ﻿
 namespace CalenderApplication
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,72 +29,74 @@ namespace CalenderApplication
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.DailyPlanner = new System.Windows.Forms.TabPage();
+            this.Weather = new System.Windows.Forms.TabPage();
+            this.Calculator = new System.Windows.Forms.TabPage();
+            this.Notes = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
+            this.tabControl.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabControl
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(14, 45);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(887, 779);
-            this.tabControl1.TabIndex = 0;
+            this.tabControl.Controls.Add(this.DailyPlanner);
+            this.tabControl.Controls.Add(this.Weather);
+            this.tabControl.Controls.Add(this.Calculator);
+            this.tabControl.Controls.Add(this.Notes);
+            this.tabControl.Controls.Add(this.tabPage5);
+            this.tabControl.Location = new System.Drawing.Point(14, 45);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(887, 779);
+            this.tabControl.TabIndex = 0;
             // 
-            // tabPage1
+            // DailyPlanner
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Size = new System.Drawing.Size(879, 746);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Daily Planner";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.DailyPlanner.AccessibleDescription = "";
+            this.DailyPlanner.AccessibleName = "";
+            this.DailyPlanner.BackColor = System.Drawing.Color.Crimson;
+            this.DailyPlanner.Location = new System.Drawing.Point(4, 29);
+            this.DailyPlanner.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DailyPlanner.Name = "DailyPlanner";
+            this.DailyPlanner.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DailyPlanner.Size = new System.Drawing.Size(879, 746);
+            this.DailyPlanner.TabIndex = 0;
+            this.DailyPlanner.Text = "Daily Planner";
             // 
-            // tabPage2
+            // Weather
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage2.Size = new System.Drawing.Size(879, 746);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Weather";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.Weather.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.Weather.Location = new System.Drawing.Point(4, 29);
+            this.Weather.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Weather.Name = "Weather";
+            this.Weather.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Weather.Size = new System.Drawing.Size(879, 746);
+            this.Weather.TabIndex = 1;
+            this.Weather.Text = "Weather";
             // 
-            // tabPage3
+            // Calculator
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage3.Size = new System.Drawing.Size(879, 746);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Calculator";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.Calculator.BackColor = System.Drawing.Color.Pink;
+            this.Calculator.Location = new System.Drawing.Point(4, 29);
+            this.Calculator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calculator.Name = "Calculator";
+            this.Calculator.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calculator.Size = new System.Drawing.Size(879, 746);
+            this.Calculator.TabIndex = 2;
+            this.Calculator.Text = "Calculator";
             // 
-            // tabPage4
+            // Notes
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage4.Size = new System.Drawing.Size(879, 746);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Notes";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.Notes.BackColor = System.Drawing.Color.Yellow;
+            this.Notes.Location = new System.Drawing.Point(4, 29);
+            this.Notes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Notes.Name = "Notes";
+            this.Notes.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Notes.Size = new System.Drawing.Size(879, 746);
+            this.Notes.TabIndex = 3;
+            this.Notes.Text = "Notes";
             // 
             // tabPage5
             // 
@@ -107,28 +109,28 @@ namespace CalenderApplication
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(941, 840);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabControl);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Widget Application";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tabControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.TabPage DailyPlanner;
+        private System.Windows.Forms.TabPage Weather;
+        private System.Windows.Forms.TabPage Calculator;
+        private System.Windows.Forms.TabPage Notes;
         private System.Windows.Forms.TabPage tabPage5;
     }
 }
