@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fihnh\\source\\repos\\CalenderApplication\\CalenderApplication.csproj",
+      "projectUniqueName": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\CalenderApplication.csproj",
       "projectName": "CalenderApplication",
-      "projectPath": "C:\\Users\\fihnh\\source\\repos\\CalenderApplication\\CalenderApplication.csproj",
+      "projectPath": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\CalenderApplication.csproj",
       "packagesPath": "C:\\Users\\fihnh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fihnh\\source\\repos\\CalenderApplication\\obj\\",
+      "outputPath": "C:\\Users\\fihnh\\Desktop\\New folder\\repos\\CalenderApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fihnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
