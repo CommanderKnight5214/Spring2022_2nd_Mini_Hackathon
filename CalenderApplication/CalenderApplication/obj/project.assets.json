@@ -8,19 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fihnh\\.nuget\\packages\\": {}
+    "C:\\Users\\cuwcs\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+      "projectUniqueName": "C:\\Users\\cuwcs\\Documents\\GitHub\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
       "projectName": "CalenderApplication",
-      "projectPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
-      "packagesPath": "C:\\Users\\fihnh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
+      "projectPath": "C:\\Users\\cuwcs\\Documents\\GitHub\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+      "packagesPath": "C:\\Users\\cuwcs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cuwcs\\Documents\\GitHub\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\fihnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cuwcs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
