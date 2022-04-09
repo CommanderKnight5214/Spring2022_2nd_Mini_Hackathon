@@ -36,8 +36,8 @@ namespace CalenderApplication
             this.Calculator = new System.Windows.Forms.TabPage();
             this.Notes = new System.Windows.Forms.TabPage();
             this.Clock = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
             this.toDoList = new System.Windows.Forms.TabPage();
+            this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
@@ -68,11 +68,10 @@ namespace CalenderApplication
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-=======
->>>>>>> d8907646987f88ab41d38c729cd1992b963c40d3
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
             this.Calendar.SuspendLayout();
+            this.toDoList.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -82,10 +81,12 @@ namespace CalenderApplication
             this.tabControl.Controls.Add(this.Calculator);
             this.tabControl.Controls.Add(this.Notes);
             this.tabControl.Controls.Add(this.Clock);
-            this.tabControl.Location = new System.Drawing.Point(12, 34);
+            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Location = new System.Drawing.Point(14, 45);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(776, 584);
+            this.tabControl.Size = new System.Drawing.Size(887, 779);
             this.tabControl.TabIndex = 0;
             // 
             // Calendar
@@ -94,10 +95,11 @@ namespace CalenderApplication
             this.Calendar.AccessibleName = "";
             this.Calendar.BackColor = System.Drawing.Color.Crimson;
             this.Calendar.Controls.Add(this.monthCalendar1);
-            this.Calendar.Location = new System.Drawing.Point(4, 24);
+            this.Calendar.Location = new System.Drawing.Point(4, 29);
+            this.Calendar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Calendar.Name = "Calendar";
-            this.Calendar.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Calendar.Size = new System.Drawing.Size(768, 556);
+            this.Calendar.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calendar.Size = new System.Drawing.Size(879, 746);
             this.Calendar.TabIndex = 0;
             this.Calendar.Text = "Calendar";
             // 
@@ -106,8 +108,7 @@ namespace CalenderApplication
             this.monthCalendar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.monthCalendar1.CalendarDimensions = new System.Drawing.Size(2, 2);
             this.monthCalendar1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.monthCalendar1.Location = new System.Drawing.Point(32, 7);
-            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.monthCalendar1.Location = new System.Drawing.Point(37, 9);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.monthCalendar1.TabIndex = 0;
@@ -115,44 +116,47 @@ namespace CalenderApplication
             // Weather
             // 
             this.Weather.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.Weather.Location = new System.Drawing.Point(4, 24);
+            this.Weather.Location = new System.Drawing.Point(4, 29);
+            this.Weather.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Weather.Name = "Weather";
-            this.Weather.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Weather.Size = new System.Drawing.Size(768, 556);
+            this.Weather.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Weather.Size = new System.Drawing.Size(879, 746);
             this.Weather.TabIndex = 1;
             this.Weather.Text = "Weather";
             // 
             // Calculator
             // 
             this.Calculator.BackColor = System.Drawing.Color.Pink;
-            this.Calculator.Location = new System.Drawing.Point(4, 24);
+            this.Calculator.Location = new System.Drawing.Point(4, 29);
+            this.Calculator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Calculator.Name = "Calculator";
-            this.Calculator.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Calculator.Size = new System.Drawing.Size(768, 556);
+            this.Calculator.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calculator.Size = new System.Drawing.Size(879, 746);
             this.Calculator.TabIndex = 2;
             this.Calculator.Text = "Calculator";
             // 
             // Notes
             // 
             this.Notes.BackColor = System.Drawing.Color.Yellow;
-            this.Notes.Location = new System.Drawing.Point(4, 24);
+            this.Notes.Location = new System.Drawing.Point(4, 29);
+            this.Notes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Notes.Name = "Notes";
-            this.Notes.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Notes.Size = new System.Drawing.Size(768, 556);
+            this.Notes.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Notes.Size = new System.Drawing.Size(879, 746);
             this.Notes.TabIndex = 3;
             this.Notes.Text = "Notes";
             // 
             // Clock
             // 
-            this.Clock.Location = new System.Drawing.Point(4, 24);
+            this.Clock.Location = new System.Drawing.Point(4, 29);
+            this.Clock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Clock.Name = "Clock";
-            this.Clock.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Clock.Size = new System.Drawing.Size(768, 556);
+            this.Clock.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Clock.Size = new System.Drawing.Size(879, 746);
             this.Clock.TabIndex = 4;
             this.Clock.Text = "Clock";
             this.Clock.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
             // toDoList
             // 
             this.toDoList.BackColor = System.Drawing.Color.Bisque;
@@ -193,6 +197,17 @@ namespace CalenderApplication
             this.toDoList.Size = new System.Drawing.Size(879, 746);
             this.toDoList.TabIndex = 5;
             this.toDoList.Text = "To Do List";
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.Bisque;
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox16.Font = new System.Drawing.Font("Segoe UI Semibold", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox16.Location = new System.Drawing.Point(93, 6);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(630, 100);
+            this.textBox16.TabIndex = 32;
+            this.textBox16.Text = "To Do List";
             // 
             // textBox15
             // 
@@ -303,7 +318,7 @@ namespace CalenderApplication
             // 
             this.checkBox15.AutoSize = true;
             this.checkBox15.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox15.Location = new System.Drawing.Point(57, 441);
+            this.checkBox15.Location = new System.Drawing.Point(60, 444);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(18, 17);
             this.checkBox15.TabIndex = 16;
@@ -313,7 +328,7 @@ namespace CalenderApplication
             // 
             this.checkBox14.AutoSize = true;
             this.checkBox14.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox14.Location = new System.Drawing.Point(57, 418);
+            this.checkBox14.Location = new System.Drawing.Point(60, 421);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(18, 17);
             this.checkBox14.TabIndex = 15;
@@ -323,7 +338,7 @@ namespace CalenderApplication
             // 
             this.checkBox13.AutoSize = true;
             this.checkBox13.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox13.Location = new System.Drawing.Point(57, 395);
+            this.checkBox13.Location = new System.Drawing.Point(60, 398);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(18, 17);
             this.checkBox13.TabIndex = 14;
@@ -333,7 +348,7 @@ namespace CalenderApplication
             // 
             this.checkBox12.AutoSize = true;
             this.checkBox12.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox12.Location = new System.Drawing.Point(57, 372);
+            this.checkBox12.Location = new System.Drawing.Point(60, 375);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(18, 17);
             this.checkBox12.TabIndex = 13;
@@ -343,7 +358,7 @@ namespace CalenderApplication
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox11.Location = new System.Drawing.Point(57, 349);
+            this.checkBox11.Location = new System.Drawing.Point(60, 352);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(18, 17);
             this.checkBox11.TabIndex = 12;
@@ -353,7 +368,7 @@ namespace CalenderApplication
             // 
             this.checkBox10.AutoSize = true;
             this.checkBox10.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox10.Location = new System.Drawing.Point(57, 326);
+            this.checkBox10.Location = new System.Drawing.Point(60, 329);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(18, 17);
             this.checkBox10.TabIndex = 11;
@@ -363,7 +378,7 @@ namespace CalenderApplication
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox9.Location = new System.Drawing.Point(57, 303);
+            this.checkBox9.Location = new System.Drawing.Point(60, 306);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(18, 17);
             this.checkBox9.TabIndex = 10;
@@ -373,7 +388,7 @@ namespace CalenderApplication
             // 
             this.checkBox8.AutoSize = true;
             this.checkBox8.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox8.Location = new System.Drawing.Point(57, 280);
+            this.checkBox8.Location = new System.Drawing.Point(60, 283);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 9;
@@ -383,7 +398,7 @@ namespace CalenderApplication
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox7.Location = new System.Drawing.Point(57, 257);
+            this.checkBox7.Location = new System.Drawing.Point(60, 260);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(18, 17);
             this.checkBox7.TabIndex = 8;
@@ -393,7 +408,7 @@ namespace CalenderApplication
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox6.Location = new System.Drawing.Point(57, 234);
+            this.checkBox6.Location = new System.Drawing.Point(60, 237);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 7;
@@ -403,7 +418,7 @@ namespace CalenderApplication
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox5.Location = new System.Drawing.Point(57, 211);
+            this.checkBox5.Location = new System.Drawing.Point(60, 214);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(18, 17);
             this.checkBox5.TabIndex = 6;
@@ -413,7 +428,7 @@ namespace CalenderApplication
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox4.Location = new System.Drawing.Point(57, 188);
+            this.checkBox4.Location = new System.Drawing.Point(60, 191);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 5;
@@ -423,7 +438,7 @@ namespace CalenderApplication
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox3.Location = new System.Drawing.Point(57, 165);
+            this.checkBox3.Location = new System.Drawing.Point(60, 168);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(18, 17);
             this.checkBox3.TabIndex = 4;
@@ -433,7 +448,7 @@ namespace CalenderApplication
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox2.Location = new System.Drawing.Point(57, 142);
+            this.checkBox2.Location = new System.Drawing.Point(60, 145);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 3;
@@ -443,37 +458,36 @@ namespace CalenderApplication
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.checkBox1.Location = new System.Drawing.Point(57, 119);
+            this.checkBox1.Location = new System.Drawing.Point(60, 122);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.UseVisualStyleBackColor = false;
-            //this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // textBox16
+            // tabPage1
             // 
-            this.textBox16.BackColor = System.Drawing.Color.Bisque;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI Semibold", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox16.Location = new System.Drawing.Point(93, 6);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(630, 100);
-            this.textBox16.TabIndex = 32;
-            this.textBox16.Text = "To Do List";
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(879, 746);
+            this.tabPage1.TabIndex = 5;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
-=======
->>>>>>> d8907646987f88ab41d38c729cd1992b963c40d3
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 630);
+            this.ClientSize = new System.Drawing.Size(941, 840);
             this.Controls.Add(this.tabControl);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
             this.Text = "Widget Application";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl.ResumeLayout(false);
             this.Calendar.ResumeLayout(false);
+            this.toDoList.ResumeLayout(false);
+            this.toDoList.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -488,38 +502,7 @@ namespace CalenderApplication
         private System.Windows.Forms.TabPage Clock;
         public System.Windows.Forms.MonthCalendar monthCalendar1;
 <<<<<<< HEAD
-        private System.Windows.Forms.TabPage toDoList;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox16;
+        
 =======
 >>>>>>> d8907646987f88ab41d38c729cd1992b963c40d3
     }
