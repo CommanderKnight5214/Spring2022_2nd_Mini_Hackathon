@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {}
+    "D:\\GitHub Repository\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {
+    "D:\\GitHub Repository\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+        "projectUniqueName": "D:\\GitHub Repository\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
         "projectName": "CalenderApplication",
-        "projectPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
-        "packagesPath": "C:\\Users\\fihnh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fihnh\\source\\repos\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
+        "projectPath": "D:\\GitHub Repository\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\CalenderApplication.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repository\\Spring2022_2nd_Mini_Hackathon\\CalenderApplication\\CalenderApplication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fihnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
