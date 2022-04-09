@@ -30,17 +30,19 @@ namespace CalenderApplication
         private void InitializeComponent()
         {
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.DailyPlanner = new System.Windows.Forms.TabPage();
+            this.Calendar = new System.Windows.Forms.TabPage();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.Weather = new System.Windows.Forms.TabPage();
             this.Calculator = new System.Windows.Forms.TabPage();
             this.Notes = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
+            this.Calendar.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
             // 
-            this.tabControl.Controls.Add(this.DailyPlanner);
+            this.tabControl.Controls.Add(this.Calendar);
             this.tabControl.Controls.Add(this.Weather);
             this.tabControl.Controls.Add(this.Calculator);
             this.tabControl.Controls.Add(this.Notes);
@@ -52,18 +54,29 @@ namespace CalenderApplication
             this.tabControl.Size = new System.Drawing.Size(887, 779);
             this.tabControl.TabIndex = 0;
             // 
-            // DailyPlanner
+            // Calendar
             // 
-            this.DailyPlanner.AccessibleDescription = "";
-            this.DailyPlanner.AccessibleName = "";
-            this.DailyPlanner.BackColor = System.Drawing.Color.Crimson;
-            this.DailyPlanner.Location = new System.Drawing.Point(4, 29);
-            this.DailyPlanner.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.DailyPlanner.Name = "DailyPlanner";
-            this.DailyPlanner.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.DailyPlanner.Size = new System.Drawing.Size(879, 746);
-            this.DailyPlanner.TabIndex = 0;
-            this.DailyPlanner.Text = "Daily Planner";
+            this.Calendar.AccessibleDescription = "";
+            this.Calendar.AccessibleName = "";
+            this.Calendar.BackColor = System.Drawing.Color.Crimson;
+            this.Calendar.Controls.Add(this.monthCalendar1);
+            this.Calendar.Location = new System.Drawing.Point(4, 29);
+            this.Calendar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calendar.Name = "Calendar";
+            this.Calendar.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Calendar.Size = new System.Drawing.Size(879, 746);
+            this.Calendar.TabIndex = 0;
+            this.Calendar.Text = "Calendar";
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.monthCalendar1.CalendarDimensions = new System.Drawing.Size(3, 3);
+            this.monthCalendar1.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.monthCalendar1.Location = new System.Drawing.Point(36, 9);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.monthCalendar1.TabIndex = 0;
             // 
             // Weather
             // 
@@ -120,6 +133,7 @@ namespace CalenderApplication
             this.Text = "Widget Application";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl.ResumeLayout(false);
+            this.Calendar.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -127,11 +141,12 @@ namespace CalenderApplication
         #endregion
 
         private System.Windows.Forms.TabControl tabControl;
-        private System.Windows.Forms.TabPage DailyPlanner;
+        private System.Windows.Forms.TabPage Calendar;
         private System.Windows.Forms.TabPage Weather;
         private System.Windows.Forms.TabPage Calculator;
         private System.Windows.Forms.TabPage Notes;
         private System.Windows.Forms.TabPage tabPage5;
+        public System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 
